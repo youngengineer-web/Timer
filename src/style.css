@@ -1,0 +1,89 @@
+/* 
+    #24616e  ,  #ffdaac  .  #ffc978
+    #228028  ,  #07340A  ,  #77B62E  ,  #46770B
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #24616e;
+}
+
+.main {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffdaac;
+}
+
+.title {
+    padding: 30px 5px;
+    color: #ffc978;
+}
+
+.timer {
+    color: #fff;
+    background: #30889c;
+    padding: 35px;
+    border-top-right-radius: 150px 30px;
+    border-bottom-right-radius: 50px 100px;
+    border-bottom-left-radius: 50px 100px;
+    border-top-left-radius: 150px 30px;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 5px white;
+}
+
+.btn {
+    padding: 20px;
+}
+
+.btn span {
+    display: inline-block;
+    width: 65px;
+    height: 50px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    padding: 15px;
+    margin: 8px;
+    box-shadow: 0px 2px 5px #bbbbbb;
+    outline-offset: -1px;
+    border-radius: 45%;
+    cursor: pointer;
+    transition: color 300ms, background 300ms, outline-offset 300ms, box-shadow 300ms,transform 300ms;
+}
+
+.btnStart {
+    background: #23a123;
+}
+
+.btnStop {
+    background: #c42828;
+}
+
+.btnReset {
+    background: #4e4f94;
+}
+
+.btn span:hover {
+    box-shadow: 0px 0px 7px 5px white;
+    color: white;
+    transform: scale(1.1);
+}
+
+.btnStart:hover {
+    background: #196319;
+}
+
+.btnStop:hover {
+    background: #741b1b;
+}
+
+.btnReset:hover {
+    background: #292a55;
+}
